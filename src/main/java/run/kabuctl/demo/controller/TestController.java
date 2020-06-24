@@ -1,11 +1,11 @@
-package run.kabuctl.demo.demo.controller;
+package run.kabuctl.demo.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.vault.core.VaultTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import run.kabuctl.demo.demo.repo.UserJpaRepository;
+import run.kabuctl.demo.repo.UserJpaRepository;
 
 @RestController
 public class TestController {

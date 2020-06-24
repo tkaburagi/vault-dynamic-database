@@ -1,7 +1,7 @@
 spring.cloud.vault:
   token: ${VAULT_TOKEN}
   scheme: http
-  host: 127.0.01
+  host: 127.0.0.1
   port: 8200
   authentication: TOKEN
   database:
